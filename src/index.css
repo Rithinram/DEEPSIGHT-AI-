@@ -69,29 +69,29 @@
   }
 
   .dark {
-    /* Dark Theme - DeepSight signature look */
-    --background: 0 0% 3%;
-    --foreground: 0 0% 98%;
+    /* Dark Theme - Navy Blue DeepSight look inspired by reference */
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 6%;
-    --card-foreground: 0 0% 98%;
+    --card: 222 84% 8%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 6%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 222 84% 8%;
+    --popover-foreground: 210 40% 98%;
 
-    /* Enhanced purple for dark mode */
-    --primary: 280 82% 55%;
-    --primary-foreground: 0 0% 8%;
-    --primary-glow: 280 90% 70%;
+    /* Purple accent matching reference design */
+    --primary: 258 90% 66%;
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: 258 90% 76%;
 
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 217 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 217 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 280 30% 12%;
-    --accent-foreground: 280 82% 55%;
+    --accent: 217 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
 
     /* Status colors for dark mode */
     --success: 142 76% 50%;
@@ -101,12 +101,12 @@
     --destructive: 0 84% 65%;
     --destructive-foreground: 0 0% 8%;
 
-    --border: 0 0% 14%;
-    --input: 0 0% 14%;
-    --ring: 280 82% 55%;
+    --border: 217 32.6% 17.5%;
+    --input: 217 32.6% 17.5%;
+    --ring: 258 90% 66%;
 
     /* DeepSight dark colors */
-    --detection-box: 280 82% 55%;
+    --detection-box: 258 90% 66%;
     --authorized: 142 76% 50%;
     --unauthorized: 0 84% 65%;
     --confidence-high: 142 76% 50%;
@@ -114,15 +114,15 @@
     --confidence-low: 0 84% 65%;
 
     /* Dark gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(280 82% 55%), hsl(280 90% 70%));
-    --gradient-detection: linear-gradient(90deg, hsl(280 82% 55% / 0.1), hsl(280 82% 55% / 0.3));
+    --gradient-primary: linear-gradient(135deg, hsl(258 90% 66%), hsl(258 90% 76%));
+    --gradient-detection: linear-gradient(90deg, hsl(258 90% 66% / 0.1), hsl(258 90% 66% / 0.3));
     --gradient-alert: linear-gradient(135deg, hsl(0 84% 65% / 0.1), hsl(0 84% 65% / 0.2));
 
     /* Dark shadows */
-    --shadow-soft: 0 2px 8px hsl(0 0% 0% / 0.3);
-    --shadow-medium: 0 4px 16px hsl(0 0% 0% / 0.4);
-    --shadow-strong: 0 8px 32px hsl(0 0% 0% / 0.5);
-    --shadow-glow: 0 0 40px hsl(280 82% 55% / 0.4);
+    --shadow-soft: 0 2px 8px hsl(222 84% 5% / 0.3);
+    --shadow-medium: 0 4px 16px hsl(222 84% 5% / 0.4);
+    --shadow-strong: 0 8px 32px hsl(222 84% 5% / 0.5);
+    --shadow-glow: 0 0 40px hsl(258 90% 66% / 0.4);
   }
 }
 
